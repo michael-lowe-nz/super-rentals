@@ -1,0 +1,20 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+  <p>We hope you find exactly what you're looking for in a place to stay.</p>
+</div>
+<div class="rentals">
+  {{#each model as |rental|}}
+    <div>
+      <h1>{{rental.id}}</h1>
+      <img src={{rental.image}}>
+      <p>{{rental.description}}</p>
+    </div>
+  {{/each}}
+</div>
+<div class="people">
+  {{#each people as |person|}}
+    <p>{{person.name}}</p>
+  {{/each}}
+</div>
+{{outlet}}

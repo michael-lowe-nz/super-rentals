@@ -1,9 +1,12 @@
 <h1>SuperRentals</h1>
 <nav>
   <ul>
-    <li>{{#link-to 'about'}}Home{{/link-to}}</li>
+    <li>{{#link-to 'rentals'}}Rentals{{/link-to}}</li>
+    <li>{{#link-to 'index'}}Home{{/link-to}}</li>
     <li>{{#link-to 'about'}}About{{/link-to}}</li>
     <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
   </ul>
 </nav>
-{{outlet}}
+<div class="body">
+  {{outlet}}
+</div>
