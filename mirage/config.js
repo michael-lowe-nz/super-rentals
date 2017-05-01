@@ -7,7 +7,7 @@ export default function() {
         type: 'rentals',
         id: 'grand-old-mansion',
         attributes: {
-          title: 'Grand Old Mansion',
+          title: 'Grand Old Mansion Nyah!',
           owner: 'Veruca Salt',
           city: 'San Francisco',
           type: 'Estate',
