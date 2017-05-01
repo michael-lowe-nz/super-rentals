@@ -6,7 +6,7 @@ const communityPropertyTypes = [
   'Apartment'
 ]
 
-export function rentalPropertyType(type) {
+export function rentalPropertyType([type]) {
   return communityPropertyTypes.includes(type) ? 'Community' : 'Standalone'
 }
 
